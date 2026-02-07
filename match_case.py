@@ -1,4 +1,4 @@
-'''
+
 td = int(input('enter a digit: '))
 
 match td:
@@ -11,7 +11,7 @@ match td:
     case _ :
         print('invalid input')
         
-'''
+
 
 ''' 
 Exercise 2: Day of the Week
@@ -26,7 +26,7 @@ Input a number 1–7:
 7 → Sunday
 Anything else → "Invalid day"
 
-
+'''
 day_no = int(input('enter a number from 1-7 to know what day of the week it is: '))
 
 match day_no:
@@ -46,7 +46,7 @@ match day_no:
         print('sunday')
     case_:
         print('digit not in range 1-7')
-        '''
+        
         
         
 '''
@@ -67,7 +67,7 @@ Input a score 0–100:
 
 Anything else → "Invalid score"'''
 
-'''
+
 grade = int(input('enter thescore to determine the grade: '))
 
 match grade:
@@ -85,7 +85,7 @@ match grade:
         print('the score {grade} is not in range of 0-100')
         
         
- '''       
+       
 '''
 Exercise 4: Temperature Status
 
@@ -99,7 +99,7 @@ Input temperature in °C:
 
 > 25 → "Hot"
 '''
-'''
+
 temp = int(input('enter the temperature: '))
 
 match temp:
@@ -113,7 +113,7 @@ match temp:
         print('hot')
     case _:
         print('invalid input')
-'''
+
 
 
 '''
@@ -143,4 +143,5 @@ match test_letter:
     case 'b'|'c'|'d'|'y'|'f'|'x'|'j'|'k'|'l'|'m'|'n'|'w'|'p'|'q'|'r'|'s'|'t'|'v'| 'z':
         print("consonant")
     case _:
+
         print('invalid')
